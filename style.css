@@ -1,79 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@400;700&display=swap");
 
-
-*, body {
-    margin: 0;
-    box-sizing: border-box;
+*,
+body {
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-   font-family: "Roboto", sans-serif;
-   color: white;
-   text-shadow: 0px 0px 50px rgb(27, 24, 24);
-    background: no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vH;
-    padding: 15px
-    }
-
-#top-container {
-    display: flex;
-    justify-content: space-between;
-
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 0px 0px 50px rgb(27, 24, 24);
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 15px;
+}
 
+#top-container {
+  display: flex;
+  justify-content: space-between;
+}
 
 #center-container {
-    align-self: center;
-    text-align: center;
-    
-    }
+  align-self: center;
+  text-align: center;
+}
 
 #crypto-data {
-    display: flex;
-  
+  display: flex;
 }
 
 .data {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 50px;
-    text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 50px;
+  text-transform: capitalize;
 }
 
-.crypto-img{
-    position: relative;
-    top: 50%;
-    margin-right: 15px
+.crypto-img {
+  position: relative;
+  top: 50%;
+  margin-right: 15px;
 }
 
 .time {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #weather {
-    display: flex;
-    margin-right: 15px;
-  }
-
-  .weather-img{
-    position: relative;
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    margin-right: 10px;
-
+  display: flex;
+  margin-right: 15px;
 }
 
-
-
+.weather-img {
+  position: relative;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
